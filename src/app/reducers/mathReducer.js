@@ -1,4 +1,4 @@
-const mathReducer = (state = {
+const math = (state = {
 	result: 1,
 	lastValues: []
 }, action) => {
@@ -21,4 +21,4 @@ const mathReducer = (state = {
 	return state;
 };
 
-export default mathReducer;
+export default math;

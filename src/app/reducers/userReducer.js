@@ -1,4 +1,4 @@
-const userReducer = (state = {
+const user = (state = {
 	name: "Sathish",
 	age: 30
 }, action) => {
@@ -19,4 +19,4 @@ const userReducer = (state = {
 	return state;
 };
 
-export default userReducer;
+export default user;
